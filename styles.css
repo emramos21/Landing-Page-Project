@@ -6,6 +6,14 @@ h1 {
     font-weight: 800;
     color:#F9FAF8;
 }
+.flex-container {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
 .one,
 .two,
 .three {
