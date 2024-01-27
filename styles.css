@@ -50,9 +50,9 @@ h1 {
     font-size: 18px;
     color: #E5E7EB;
 }
-.button-container {
-    background-color: blue;
-    border: none;
-    text-align: center;
-
+.button {
+    background-color:#3883F6;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 12px;
 }
