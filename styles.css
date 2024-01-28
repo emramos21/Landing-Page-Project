@@ -32,27 +32,34 @@ h1 {
     margin-right: 30px;
 }
 .website-container {
-    margin-top: 60px;
+    margin: 60px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    align-content: flex-start;
+    justify-content: flex-start;
     color: #F9FAF8;
+    border: solid;
+    list-style: none;
 }
-.bold-large-container {
+.awesome {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    flex-wrap: wrap;
 }
-.smaller-font-container {
+.subtext {
     font-size: 18px;
     color: #E5E7EB;
+    flex-wrap: wrap;
 }
 .button {
     background-color:#3883F6;
     border-radius: 4px;
     color: white;
     padding: 5px 12px;
+    flex-wrap: wrap;
+}
+.image {
+    color: white; 
+    flex-wrap: wrap;
 }
