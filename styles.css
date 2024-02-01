@@ -29,8 +29,12 @@ body {
     font-size: 10px;
     align-self: baseline;
 }
-.button {
-    color: blue;
+.button1 {
+    background-color: #3882f6;
+    padding: 6px 10px;
+    width: fit-content;
+    border-radius: 12px;
+    color: white;
 }
 .image {
     margin: 40px;
