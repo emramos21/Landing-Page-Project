@@ -14,8 +14,16 @@ body {
 }
 .website-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     list-style: none;
+    gap: 20px;
+}
+.awesome {
+    color: white;
+    margin: 40px;
+}
+.subtext {
+    color: grey;
 }
 .image {
     margin: 40px;
