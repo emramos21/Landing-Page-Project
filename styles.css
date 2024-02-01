@@ -12,3 +12,11 @@ body {
     color: grey;
     font-size: 18px;
 }
+.website-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.image {
+    margin: 40px;
+}
