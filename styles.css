@@ -20,12 +20,17 @@ body {
 }
 .awesome {
     color: white;
-    margin: 40px;
+    margin-top: 40px;
     font-weight: bolder;
     font-size: 30px;
 }
 .subtext {
     color: grey;
+    font-size: 10px;
+    align-self: baseline;
+}
+.button {
+    color: blue;
 }
 .image {
     margin: 40px;
