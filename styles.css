@@ -1,16 +1,24 @@
 body {
     background-color: #1F2937;
 }
-.left {
-    color: white;
+nav {
+    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: flex-end;
     justify-content: space-between;
-    font-size: 20px;
 }
-.right {
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
     color: grey;
-    font-size: 18px;
+}
+.header {
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: white;
+
 }
 .website-container {
     display: flex;
@@ -37,5 +45,12 @@ body {
     color: white;
 }
 .image {
-    margin: 40px;
+    margin: 100px;
+    border: 40px grey;
+    background-color: grey;
+    width: 300px;
+    padding: 80px;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
 }
