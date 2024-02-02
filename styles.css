@@ -37,14 +37,15 @@ nav ul li {
     width: fit-content;
     border-radius: 12px;
     color: white;
+    display: inline-block;
 }
 .image {
-    margin: 100px;
+    margin-top: 30px;
     border: 40px grey;
     background-color: grey;
     width: 300px;
     padding: 80px;
-    align-items: center;
-    align-content: center;
-    display: inline-block;
+    position: relative;
+    left: 800px;
+    bottom: 250px;
 }
