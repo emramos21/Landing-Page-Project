@@ -61,7 +61,6 @@ nav ul li {
     align-items: center;
     flex-wrap: wrap;
 }
-
 .item{
     border: solid blue;
     background-color: white;
@@ -98,6 +97,7 @@ h3{
     padding: 30px;
     color: white;
     font-size: 20px;
+    border-radius: 8px;
 }
 .button2{
     background-color: #3882f6;
