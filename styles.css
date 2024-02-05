@@ -19,6 +19,7 @@ nav ul li {
     margin-top: 5px;
     margin-bottom: 30px;
     color: white;
+    border: black solid;
 }
 .awesome {
 	margin: 100px;
@@ -27,10 +28,12 @@ nav ul li {
 	color: white;
 	font-size: 40px;
 	font-weight: bold;
+    border: black solid;
 	}
 .awesome p{
 	color: grey;
 	font-size: 14px;
+    border: black solid;
 	}
 .button1 {
     background-color: #3882f6;
@@ -39,6 +42,7 @@ nav ul li {
     border-radius: 12px;
     color: white;
     display: inline-block;
+    border: black solid;
 }
 .image {
     background-color: grey;
@@ -49,14 +53,12 @@ nav ul li {
     bottom: 400px;
     color: white;
     text-align: center;
+    border: black solid;
 }
 .random {
     color: black;
     text-align: center;
     font-size: 10px;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: 100% 30px;
 }
 .image-container {
     display: flex;
@@ -64,6 +66,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border: black solid;
 }
 .item{
     border: solid blue;
@@ -80,6 +83,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border: black solid;
 }
 .text{
     padding: 20px;
