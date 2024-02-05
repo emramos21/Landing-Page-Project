@@ -61,22 +61,8 @@ nav ul li {
     align-items: center;
     flex-wrap: wrap;
 }
-.item1,
-.item2,
-.item3,
-.item4,
-.item5,
-.item6,
-.item7,
-.item8{
-    padding: 10px;
-    margin: 20px;
-    width: 250px;
-}
-.item1,
-.item2,
-.item3,
-.item4 {
+
+.item{
     border: solid blue;
     background-color: white;
     width: 100px;
@@ -84,4 +70,15 @@ nav ul li {
     height: 80px;
     margin: 10px;
     border-radius: 15px;
+}
+.subtext{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text{
+    padding: 20px;
+    margin-bottom: 30px;
 }
