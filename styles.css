@@ -1,5 +1,6 @@
 body{
-    background-color: #1F2937;
+    background-image: linear-gradient(to bottom, #1f2937 0%, #1f2937 25%, white 25%, white 50%, lightgrey 50%, lightgrey 75%, white 75%, white 100%);
+    min-height: 100vh;
 }
 nav {
     padding: 10px;
@@ -54,6 +55,8 @@ nav ul li {
     text-align: center;
     font-size: 10px;
     background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 30px;
 }
 .image-container {
     display: flex;
@@ -61,7 +64,6 @@ nav ul li {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: white;
 }
 .item{
     border: solid blue;
@@ -78,7 +80,6 @@ nav ul li {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: white;
 }
 .text{
     padding: 20px;
@@ -89,7 +90,6 @@ nav ul li {
     font-style: italic;
     margin: 50px;
     font-size: 25px;
-    background-color: lightgrey;
 }
 h3{
     font-weight: bold;
