@@ -61,9 +61,27 @@ nav ul li {
     align-items: center;
     flex-wrap: wrap;
 }
-.item{
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8{
     padding: 10px;
     margin: 20px;
     width: 250px;
-    border: solid white;
+}
+.item1,
+.item2,
+.item3,
+.item4 {
+    border: solid blue;
+    background-color: white;
+    width: 100px;
+    padding: 20px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 15px;
 }
