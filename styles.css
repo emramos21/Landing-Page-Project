@@ -42,10 +42,10 @@ nav ul li {
 .image {
     background-color: grey;
     width: 300px;
-    padding: 50px;
+    padding: 150px;
     position: relative;
     left: 800px;
-    bottom: 250px;
+    bottom: 400px;
     color: white;
     text-align: center;
 }
